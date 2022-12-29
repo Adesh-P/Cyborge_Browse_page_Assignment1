@@ -110,7 +110,7 @@ div.sub3 ul li a.profile-hover:hover {
     justify-content: space-evenly;
 }
 .sub-div1-games {
-    width: 60%;
+    width: 62%;
     background-color: #1f2122;
     min-height: 250px;
     border-radius: 15px;
@@ -169,7 +169,6 @@ h1 {
     width: 29%;
     min-height: 200px;
     border-radius: 15px;
-    
 }
 .sub-div1-games-image2 {
     width: 29%;
@@ -188,26 +187,27 @@ h1 {
     background-position: top;
     min-height: 370px;
     border-radius: 30px;
+    cursor: pointer;
 }
 .review {
     display: flex;
     justify-content: space-between;
 }
 .review { 
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
 .image_game1_inner1 {
-    
     width: 60%;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 .image_game1_inner2 {
-    width: 30%;
+    width: 36%;
     color: #fff;
     margin-top: 5px;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 5px;
 }
 .title {
@@ -222,7 +222,7 @@ h1 {
     font-size: 15px;
     color: #606566;
     font-weight: 200;
-    padding-top: 10px;
+    padding-to: 10px;
     
 }
 .fa-star {
@@ -230,11 +230,13 @@ h1 {
     padding-right: 25px;
     margin-top: 5px;
     margin-left: 10px;
+    cursor: pointer;
 }
 .fa-download {
     color: #d75985;
     padding-right: 25px;
     margin-top: 8px;
+    cursor: pointer;
 }
 .star_align {
     margin-left: 5px;
@@ -246,6 +248,7 @@ h1 {
     background-position: top;
     min-height: 370px;
     border-radius: 30px;
+    cursor: pointer;
 }
 .image_game3 {
     background-image: url("https://technext.github.io/cyborg/assets/images/featured-03.jpg");
@@ -254,6 +257,7 @@ h1 {
     background-position: top;
     min-height: 370px;
     border-radius: 30px;
+    cursor: pointer;
 }
 .top_downloaded_heading {
     margin-left: 15px;
@@ -272,10 +276,23 @@ h1 {
 .top_download_inner1 {
     width: 20%;
     min-height: 80px;
+    
+    border-radius: 15px;
+}
+.top_download_image1 {
     background-image: url("https://technext.github.io/cyborg/assets/images/game-01.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    border-radius: 15px;
+}
+.top_download_image2 {
+    background-image: url("https://technext.github.io/cyborg/assets/images/game-02.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.top_download_image3 {
+    background-image: url("https://technext.github.io/cyborg/assets/images/game-03.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .top_download_inner2 {
     width: 50%;
@@ -378,6 +395,11 @@ p.sub_text a:hover {
     border-radius: 20px;
     font-size: 15px;
     border: none;
+    cursor: pointer;
+}
+.profile-button:hover {
+    background-color: #fff;
+    color: #d75985;
 }
 .popular_stream {
     background-color: #1f2122;
@@ -399,12 +421,36 @@ p.sub_text a:hover {
 .popular_image {
     background-color: #ffff00;
     width: 100%;
-    min-height: 171px;
+    min-height: 250px;
     border-radius: 15px;
+}
+.popular_image1 {
     background-image: url("https://technext.github.io/cyborg/assets/images/stream-01.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    cursor: pointer; 
+}
+.popular_image2 {
+    background-image: url("https://technext.github.io/cyborg/assets/images/stream-02.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    cursor: pointer;
+}
+.popular_image3 {
+    background-image: url("https://technext.github.io/cyborg/assets/images/stream-03.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    cursor: pointer;
+}
+.popular_image4 {
+    background-image: url("https://technext.github.io/cyborg/assets/images/stream-04.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    cursor: pointer;
 }
 .popular_image_main {
     width: 22%;
@@ -463,6 +509,7 @@ p.sub_text a:hover {
     border-radius: 20px;
     font-size: 15px;
     border: none;
+    cursor: pointer;
 }
 .discover-button:hover {
     background-color: #fff;
