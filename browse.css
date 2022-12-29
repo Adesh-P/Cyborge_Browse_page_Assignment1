@@ -409,8 +409,7 @@ p.sub_text a:hover {
 .most_popular {
     margin: 35px;
     padding-top: 20px;
-    padding-bottom: 20px;
-    
+    padding-bottom: 20px;  
 }
 .most_popular_image {
     width: 100%;
