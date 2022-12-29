@@ -1,0 +1,490 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Poppins, sans-serif;
+}
+.main {
+    width: 100%;
+    background-color: #1f2122;
+    height: auto;
+}
+.container {
+    width: 82%;
+    display: flex;
+    margin: 0px auto;
+    background-color: #1f2122;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+.sub1 {
+    width: 25%;
+}
+.sub2 {
+    width: 25%;
+    display: flex;
+    position: relative;
+}
+.sub3 {
+    width: 50%;
+}
+input[type="text"] {
+    background-color: #27292a;
+    text-align: center;
+    height: 45px;
+    margin: 0px auto;
+    border-radius: 30px;
+    width: 235px;
+    font-size: 15px;
+    border: 1px solid #27292a;
+    color: #fff;
+    margin-top: 23px;
+}
+.fa-search {
+    color: #fff;
+    opacity: 0.5;
+}
+.search-icon {
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+.logo {
+    padding:20px 0px;
+    margin-left: -10px;
+}
+div.sub3 ul {
+    list-style-type: none;
+    display: inline-flex;
+    float: right;
+}
+div.sub3 ul li {
+    margin: 12px;
+    margin-top: 20px;
+    padding: 15px;
+}
+div.sub3 ul li a {
+    color: #656565;
+    text-decoration: none;
+    font-size: 14px;
+}
+div.sub3 ul li a:hover {
+    color: #d75985;
+    transition: 1s;
+}
+div.sub3 ul li a.active {
+    color: #d75985;
+}
+.profile {
+    background-color: #27292a;  
+    border-radius: 25px;
+}
+.profile:hover {  
+    background-color: #d75985;
+}
+div.sub3 ul li a.profile-hover:hover {
+    color: #fff;
+}
+.profile-img {
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    margin-left: 8px;
+}
+.container2 {
+    width: 82%;
+    margin: 0px auto;
+    background-color: #27292a;
+    padding: 10px;
+    border-radius: 15px;
+}
+.sub-div1 {
+    width: 100%;
+    margin: 0px auto;
+    padding: 45px 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sub-div1-games {
+    width: 60%;
+    background-color: #1f2122;
+    min-height: 250px;
+    border-radius: 15px;
+}
+.sub-div1-downloaded {
+    width: 30%;
+    background-color: #1f2122;
+    min-height: 250px;
+    border-radius: 15px;
+}
+.sub-div1-games-heading {
+    display: flex;
+    justify-content: space-around;
+}
+h1 {
+    font-size: 34px;
+    color: #fff;
+    font-weight: bold;
+}
+.color {
+    color: #d75985;
+}
+.fa-solid {
+    color: #656565;
+    width: 10px;
+    height: 10px;
+    margin-top: 55px; 
+}
+.fa-solid:hover {
+    color: #d75985;
+}
+.fa-solid1 {
+    text-align: center;
+}
+.featured_heading {
+    margin-left: 15px;
+    margin-top: 25px;
+    padding: 10px;
+    padding-bottom: 35px;
+}
+.featured_games {
+    width: 80%;   
+}
+.prev_next {
+    width: 13%;
+    position: relative;
+}
+.sub-div1-games-images {
+    width: 100%; 
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px auto;
+    padding-bottom: 25px;
+}
+.sub-div1-games-image1 {
+    width: 29%;
+    min-height: 200px;
+    border-radius: 15px;
+    
+}
+.sub-div1-games-image2 {
+    width: 29%;
+    
+    border-radius: 15px;
+}
+.sub-div1-games-image3 {
+    width: 29%;
+    
+    border-radius: 15px;
+}
+.image_game1 {
+    background-image: url("https://technext.github.io/cyborg/assets/images/featured-02.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 370px;
+    border-radius: 30px;
+}
+.review {
+    display: flex;
+    justify-content: space-between;
+}
+.review { 
+    display: flex;
+    justify-content: space-between;
+}
+.image_game1_inner1 {
+    
+    width: 60%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.image_game1_inner2 {
+    width: 30%;
+    color: #fff;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.title {
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 8px;
+    padding-top: 10px;
+    
+}
+.sub_title {
+    font-size: 15px;
+    color: #606566;
+    font-weight: 200;
+    padding-top: 10px;
+    
+}
+.fa-star {
+    color: #ffff00;
+    padding-right: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.fa-download {
+    color: #d75985;
+    padding-right: 25px;
+    margin-top: 8px;
+}
+.star_align {
+    margin-left: 5px;
+}
+.image_game2 {
+    background-image: url("https://technext.github.io/cyborg/assets/images/featured-01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 370px;
+    border-radius: 30px;
+}
+.image_game3 {
+    background-image: url("https://technext.github.io/cyborg/assets/images/featured-03.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 370px;
+    border-radius: 30px;
+}
+.top_downloaded_heading {
+    margin-left: 15px;
+    margin-top: 25px;
+    padding: 10px;
+    padding-bottom: 35px;
+}
+.top_download_inner {
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #656565;
+    padding-bottom: 20px;
+}
+.top_download_inner1 {
+    width: 20%;
+    min-height: 80px;
+    background-image: url("https://technext.github.io/cyborg/assets/images/game-01.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.top_download_inner2 {
+    width: 50%;
+}
+.top_download_inner3 {
+    width: 15%;
+    position: relative;
+}
+.title_margin {
+    margin-left: 10px;
+}
+.sub_title_margin {
+    margin-left: 10px;
+}
+.star_margin {
+    margin-left: 0px;
+    color: #fff;
+}
+.download_icon {
+    border-radius: 15px;
+    margin-top: 40px;
+}
+.top_download_inner_padding {
+    padding-top: 20px;
+}
+.all_games {
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 45px;
+}
+div.all_games a{
+    color: #d75985;
+    text-decoration: none;
+}
+.download_icon {
+    position: absolute; 
+    top: 30%; 
+    left: 50%; 
+    transform: translate(-50%,-50%); 
+    width: 40px; height: 40px; 
+    background-color: #606566;
+    border-radius: 50%;
+}
+.fa-sharp {
+    font-size: 20px;
+    color: #d75985;
+    margin-left: 10px;
+}
+.live_stream_heading {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.stream_main {
+    width: 92%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.sub_stream_main {
+    width: 32%;
+    border-radius: 15px;
+    border: 1px solid #606566;
+    
+}
+.stream-images {
+    margin-top: 25px;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 30px;
+    color: #fff;
+}
+.sub_text {
+    color: #606566;
+    font-size: 15px;
+    padding: 0px 30px 30px;
+    line-height: 1.8;
+}
+p.sub_text a {
+    color: #fff;
+    text-decoration: none;
+}
+p.sub_text a:hover {
+    color: #d75985;
+}
+.profile-button {
+    width: 200px;
+    margin-left: 50%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    transform: translate(-50%,0px);
+    color: #fff;
+    background-color: #d75985;
+    padding: 12px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: none;
+}
+.popular_stream {
+    background-color: #1f2122;
+    width: 92%;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.most_popular {
+    margin: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.most_popular_image {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.popular_image {
+    background-color: #ffff00;
+    width: 100%;
+    min-height: 171px;
+    border-radius: 15px;
+    background-image: url("https://technext.github.io/cyborg/assets/images/stream-01.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.popular_image_main {
+    width: 22%;
+    
+    min-height: 250px;
+    border-radius: 15px;
+}
+.most_popular_subheadings {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.most_popular_subheadings_image {
+    width: 30%;
+    
+}
+.most_popular_subheadings_text {
+    width: 65%;
+    
+}
+.small_image {
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.fa-check {
+    color: #fff;
+    background-color: #d75985;
+    border-radius: 50%;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.small_title {
+    margin-top: 15px;
+    
+    font-size: 16px;
+    color: #d75985;
+}
+.big_title {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1;
+    margin-left: 10px;
+    margin-bottom: 60px;
+}
+.discover-button {
+    width: 200px;
+    margin-left: 50%;
+    margin-top: 0px;
+    transform: translate(-50%,-20px);
+    color: #fff;
+    background-color: #d75985;
+    padding: 12px 15px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: none;
+}
+.discover-button:hover {
+    background-color: #fff;
+    color: #d75985;
+}
+.footer {
+    width: 100%;
+    margin: 10px auto;
+}
+div.footer p {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 2.5;
+}
+div.footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+div.footer p a:hover {
+    color: #d75985;
+}
